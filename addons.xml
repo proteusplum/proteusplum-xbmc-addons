@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.proteusplum.addons" name="Proteusplum XBMC Addons" version="0.0.1"
+provider-name="Proteusplum">
+	<extension point="xbmc.addon.repository" name="Proteusplum XBMC Addon Repository">
+		<info
+compressed="false">http://github.com/proteusplum/proteusplum-xbmc-addons/raw/master/addons.xml</info>
+
+<checksum>http://github.com/proteusplum/proteusplum-xbmc-addons/raw/master/addons.xml.md5</checksum>
+		<datadir zip="false">http://github.com/proteusplum/proteusplum-xbmc-addons/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Proteusplum Addons</summary>
+		<description>Download and install Proteusplum addons</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+<addon
+
+  id="plugin.audio.mflow"
+
+  version="0.4.0"
+
+  name="mFlow"
+
+  provider-name="Sam Price"
+
+  >
+
+  <requires>
+
+   <import addon="xbmc.python" version="1.0"/>
+
+   <import addon="script.module.simplejson" version="2.0.10"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource"
+
+library="default.py">
+
+<provides>audio</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary>mFlow audio plugin
+</summary>
+
+    <description>A plugin for streaming music service mFlow. </description>
+
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+</addons>
